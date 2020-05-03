@@ -27,7 +27,7 @@ public class Conexion {
         try {
             
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection(url,"root","root");
+            con = DriverManager.getConnection(url,"user","pass");
             System.out.println("En linea");
           
         } catch (Exception e) {
